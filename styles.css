@@ -30,16 +30,42 @@ body {
 
     .main {
         display: flex;
+        justify-content: center;
         
         .left {
+            width: 450px;
+            height: 250px;
+
             .intro_title {
                font-size: 48px;
                font-weight: 900; 
             }
 
             .intro_body {
-                
+                font-size: 18px;
+                color: #e5e7eb;
             }
+
+            #one {
+                border: none;
+                background-color: #3882f6;
+                color: white;
+            }
+
+            #one:active {
+                transform: scale(0.9);
+            }
+
+            #one:hover {
+                background-color: white;
+                color: #3882f6;
+            }
+        }
+
+        .right {
+            width: 450px;
+            height: 250px;
+            
         }
     }
 }
