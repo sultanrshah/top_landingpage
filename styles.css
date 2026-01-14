@@ -61,7 +61,7 @@ body {
             }
 
             #one:active {
-                transform: scale(0.9);
+                transform: scale(0.95);
             }
 
             #one:hover {
@@ -132,7 +132,7 @@ body {
     padding: 100px 0px;
     
     .quote {
-        width: 920px;
+        width: 850px;
         font-weight: 300;
         font-size: 36px;
         color: #1f2937;
@@ -148,4 +148,67 @@ body {
 
 /* CTA 2 */
 
+.cta.two {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding: 100px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #3882f6;
+        border-radius: 4px;
+        padding: 50px 100px;
+        box-sizing: border-box;
+        width: 700px;
+        
+
+        .call {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            color: white;
+
+            .call_title {
+                font-weight: bold;
+                font-size: larger;
+            }
+
+            .call_body {
+                font-size: 12px;
+            }
+
+        }
+
+        #two {
+                outline: 1px solid white;
+                border: none;
+                background-color: #3882f6;
+                color: white;
+                padding: 4px 16px;
+                border-radius: 4px;
+            }
+
+            #two:active {
+                transform: scale(0.95);
+            }
+
+            #two:hover {
+                background-color: white;
+                color: #3882f6;
+            }
+    }
+}
+
 /* FOOTER */
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+    font-size: 12px;
+}
